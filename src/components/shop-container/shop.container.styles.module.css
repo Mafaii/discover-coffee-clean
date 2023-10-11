@@ -1,0 +1,18 @@
+.shop_sections {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: stretch;
+}
+.header {
+    margin: 2rem;
+}
+
+@media screen and (min-width:600px){
+    .shop_sections {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

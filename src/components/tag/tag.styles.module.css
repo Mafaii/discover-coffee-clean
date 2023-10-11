@@ -1,0 +1,8 @@
+.tag {
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+    font-size: 0.8rem;
+    padding: 5px;
+    /* height: 2rem; */
+    display: inline-block;    
+}

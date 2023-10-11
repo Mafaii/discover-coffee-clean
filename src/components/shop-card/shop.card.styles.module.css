@@ -1,0 +1,25 @@
+.shop_name {
+    font-size: 1.4rem;
+}
+.card_bg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.cart_link {
+    color: var(--font-color);
+    text-decoration: none;
+}
+.shop_info {    
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.tags {            
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    width: 100%;        
+}

@@ -1,0 +1,23 @@
+.shop_card {
+    padding: 1rem;
+    border: 2px solid var(--border-color);
+    border-radius: var(--border-radius);   
+    width: 280px;
+    /* height: 150px; */
+    position: relative;
+    background-color: var(--transparent-bg);
+}
+.shop_card:hover::after {
+    content: '';
+    height: 100%;
+    width: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--border-color);
+}
+@media screen and (min-width:600px){
+    .shop_card {
+        width: 350px;
+    }
+}
